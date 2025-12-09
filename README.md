@@ -95,12 +95,15 @@ Highlights processes/resources involved
 Graphical representation of the wait-for cycle
 
 📷 Screenshots
-
-(Add later — keep this section for GitHub)
-
-🤝 Contributing
-
-Contributions are welcome!
+<img width="1918" height="868" alt="image" src="https://github.com/user-attachments/assets/cfbe24f3-747c-456e-8807-e55c2e465975" />
+<img width="1918" height="748" alt="image" src="https://github.com/user-attachments/assets/f260b8db-674a-4f49-aa47-697abef859ab" />
+<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/991a8ae6-a86c-4760-9953-9c7b27d6ddde" />
+<img width="1918" height="642" alt="image" src="https://github.com/user-attachments/assets/44ffdf60-5e73-4e40-89f6-deb76a648a82" />
+<img width="1901" height="847" alt="image" src="https://github.com/user-attachments/assets/73843d31-3528-4efe-8689-bf9477ea22a2" />
+<img width="1917" height="852" alt="image" src="https://github.com/user-attachments/assets/caa90c40-1118-4740-9039-bddb1680b1e6" />
+<img width="1918" height="821" alt="image" src="https://github.com/user-attachments/assets/5a64efe8-29ba-46e6-8a21-69efbc1e3189" />
+<img width="1918" height="836" alt="image" src="https://github.com/user-attachments/assets/09acf4b5-bc90-41d9-b467-839847f5c491" />
+<img width="1918" height="882" alt="image" src="https://github.com/user-attachments/assets/08f408b8-01ea-41bb-9193-0b797fb4e3f7" />
 Feel free to fork the repo, open issues, or submit pull requests.
 
 📄 License
