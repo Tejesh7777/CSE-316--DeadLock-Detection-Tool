@@ -75,21 +75,14 @@ Requests: P1->R2, P2->R1
 - Graphical representation of the wait-for cycle  
 
 ## 📷 Screenshots
-image  
-image  
-image  
-image  
-image  
-image  
-image  
-image  
-image  
+<img width="1919" height="869" alt="Screenshot 2025-12-09 141729" src="https://github.com/user-attachments/assets/5ee6773f-4391-4508-b68e-f8b0e6ec1583" />
+<img width="1919" height="867" alt="Screenshot 2025-12-09 141958" src="https://github.com/user-attachments/assets/b811b3a9-1a6b-44ee-a822-cce415d4d57d" />
+<img width="1901" height="847" alt="Screenshot 2025-12-09 142240" src="https://github.com/user-attachments/assets/1ff66a6a-6386-4831-858a-7d31285eb969" />
+<img width="1919" height="821" alt="Screenshot 2025-12-09 142415" src="https://github.com/user-attachments/assets/7e684b69-8804-4dfd-83b8-63165d2b12b3" />
+<img width="1901" height="847" alt="Screenshot 2025-12-09 142240" src="https://github.com/user-attachments/assets/d0aa0703-b37e-4aa7-ac36-0e84675aab43" />
+<img width="1919" height="836" alt="Screenshot 2025-12-09 142449" src="https://github.com/user-attachments/assets/e51ac820-8c31-4bfd-a380-24bc758bc967" />
+<img width="1919" height="883" alt="Screenshot 2025-12-09 142529" src="https://github.com/user-attachments/assets/b514abe4-06e7-4fae-a778-3cb9a0d6b193" />
+<img width="1919" height="643" alt="Screenshot 2025-12-09 142032" src="https://github.com/user-attachments/assets/e714b9bb-90e6-4bc7-8684-5df75d27f8b3" />
+<img width="1917" height="853" alt="Screenshot 2025-12-09 142324" src="https://github.com/user-attachments/assets/f9db6e29-4bb5-420a-9fa0-f7f384e8e908" />
+<img width="1919" height="821" alt="Screenshot 2025-12-09 142415" src="https://github.com/user-attachments/assets/457875e4-f6e8-4c28-93cf-7dc1b6514058" />
 
-## 🤝 Contributing
-Feel free to fork the repo, open issues, or submit pull requests.
-
-## 📄 License
-This project is licensed under the MIT License.
-
-## 📬 Contact
-For queries or improvements, feel free to reach out or raise an issue.
