@@ -1,0 +1,5 @@
+{
+  "name": "Deadlock Detection & Visualization Tool",
+  "description": "A premium, dark-themed educational tool for visualizing and detecting deadlocks in operating systems using the Banker's Algorithm logic, Wait-For Graphs (WAG), and Resource Allocation Graphs (RAG).",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deadlock Detection & Visualization Tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            colors: {
+              cyber: {
+                dark: '#0A0F1F',
+                darker: '#050810',
+                card: 'rgba(10, 15, 31, 0.8)'
+              },
+              neon: {
+                blue: '#00C8FF',   // Primary Accent
+                cyan: '#32F5FF',   // Cyan Accent
+                purple: '#A45CFF', // Secondary Accent
+                pink: '#FF0099',
+                green: '#00FF9D'
+              }
+            },
+            backgroundImage: {
+              'cyber-gradient': 'linear-gradient(to bottom right, #0A0F1F, #0B0E19)',
+              'btn-gradient': 'linear-gradient(90deg, #00C8FF 0%, #A45CFF 50%, #FF0099 100%)',
+            },
+            animation: {
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'float': 'float 6s ease-in-out infinite',
+              'dash-flow': 'dash 1s linear infinite',
+              'glow': 'glow 2s ease-in-out infinite alternate',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              },
+              dash: {
+                to: {
+                  strokeDashoffset: '-10',
+                },
+              },
+              glow: {
+                'from': { boxShadow: '0 0 5px rgba(0, 200, 255, 0.2)' },
+                'to': { boxShadow: '0 0 20px rgba(0, 200, 255, 0.6)' }
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #0A0F1F;
+        background-image: 
+          radial-gradient(circle at 15% 50%, rgba(0, 200, 255, 0.08) 0%, transparent 25%), 
+          radial-gradient(circle at 85% 30%, rgba(164, 92, 255, 0.08) 0%, transparent 25%);
+        color: #e2e8f0;
+        min-height: 100vh;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #050810; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #1e293b; 
+        border-radius: 4px;
+        border: 1px solid #0A0F1F;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #334155; 
+      }
+      .glass-panel {
+        background: rgba(10, 15, 31, 0.6);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(0, 200, 255, 0.15);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      }
+      .input-cyber {
+        background: #050810;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        transition: all 0.3s ease;
+      }
+      .input-cyber:focus {
+        border-color: #00C8FF;
+        box-shadow: 0 0 15px rgba(0, 200, 255, 0.2);
+      }
+      
+      /* Graph Animations */
+      .edge-flow {
+        animation: dash 1s linear infinite;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "d3": "https://aistudiocdn.com/d3@^7.9.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
