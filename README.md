@@ -2,6 +2,8 @@
 
 A visualization-based project designed to detect, analyze, and display deadlocks in operating systems using Process–Resource Allocation Graphs. This tool helps students and developers understand how deadlocks occur, how detection algorithms work, and how resource interactions lead to circular wait conditions.
 
+APP LINK--deadlockdetector.netlify.app
+
 🚀 Features
 
 🔍 Deadlock Detection Algorithm
