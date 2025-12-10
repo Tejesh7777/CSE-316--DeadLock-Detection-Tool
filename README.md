@@ -36,7 +36,7 @@ APP LINK — https://deadlockdetector.netlify.app
 5. Visualization updates dynamically.
 
 ## 🛠️ Technologies Used
-- C++ / Java / Python (update depending on your project)
+- Java Script / Html
 - Graph visualization library
 - Console or GUI-based interface
 - Standard OS deadlock detection algorithms
